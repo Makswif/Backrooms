@@ -1,3 +1,18 @@
-body{
-  background: firebrick ;
+header{
+  nav{
+    background-image: url("assets/photo_2025-01-04_15-00-57 (1).jpg") !important;
+  }
+  img{
+    width: 60px;
+  }
+  .dropdown{
+    display: none;
+    .dropdown-menu{
+      background: hsl(43, 69%, 76%);
+      left: -82%;
+    }
+    a{
+      background: hsl(43, 69%, 76%);
+    }
+  }
 }

@@ -1,5 +1,80 @@
-body {
-  background: firebrick;
+header nav {
+  background-image: url("assets/photo_2025-01-04_15-00-57 (1).jpg") !important;
+}
+header img {
+  width: 60px;
+}
+header .dropdown {
+  display: none;
+}
+header .dropdown .dropdown-menu {
+  background: hsl(43, 69%, 76%);
+  left: -82%;
+}
+header .dropdown a {
+  background: hsl(43, 69%, 76%);
+}
+
+@media (max-width: 576px) {
+  header h1 {
+    position: relative;
+    left: -70px;
+  }
+  header .navbar-nav {
+    display: none;
+  }
+  header .dropdown {
+    display: flex;
+  }
+}
+@media (max-width: 510px) {
+  header h1 {
+    left: -50px;
+  }
+}
+@media (max-width: 440px) {
+  header h1 {
+    left: -30px;
+  }
+}
+@media (max-width: 380px) {
+  header h1 {
+    left: -10px;
+  }
+}
+@media (max-width: 340px) {
+  header h1 {
+    left: -20px;
+  }
+}
+@media (max-width: 243px) {
+  header .dropdown .dropdown-menu {
+    left: 0%;
+  }
+}
+@media (max-width: 230px) {
+  header h1 {
+    left: 0px;
+  }
+  header .navbar-nav {
+    display: flex;
+  }
+  header .dropdown {
+    display: none;
+  }
+  header .dropdown-menu {
+    left: 0%;
+  }
+}
+@media (max-width: 215px) {
+  header img {
+    width: 60px;
+    left: 76px;
+    position: relative;
+  }
+  header h1 {
+    left: 0px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
