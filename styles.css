@@ -1,5 +1,6 @@
 header nav {
   background-image: url("assets/photo_2025-01-04_15-00-57 (1).jpg") !important;
+  font-family: Roboto;
 }
 header img {
   width: 60px;
@@ -13,6 +14,81 @@ header .dropdown .dropdown-menu {
 }
 header .dropdown a {
   background: hsl(43, 69%, 76%);
+}
+
+body {
+  background-image: url("assets/image.png");
+}
+body a {
+  text-decoration: none;
+}
+body #a1 {
+  border-color: hsl(43, 21%, 54%);
+  background-color: hsl(0, 0%, 99%);
+}
+body #a1 em:before {
+  content: "";
+  position: absolute;
+  color: aliceblue;
+  transition: all 0.5s ease;
+}
+body #a1 em {
+  position: relative;
+  z-index: 5;
+  color: black;
+  text-decoration: none;
+}
+body #a1 em:hover {
+  transition: all 0.5s ease;
+  color: aliceblue;
+}
+body #a1:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background: hsl(43, 21%, 54%);
+  transition: all 0.5s ease;
+  z-index: 1;
+}
+body #a1:hover:before {
+  height: 42px;
+}
+body #a1:hover:before em:hover {
+  transition: all 0.5s ease;
+  color: aliceblue;
+}
+body #list1 #ls1, body #list1 #ls2, body #list1 #ls3, body #list1 #ls4, body #list1 #ls5, body #list1 #ls6 {
+  background-color: hsl(60, 14%, 97%);
+  border-width: 0px;
+  border-radius: 5px;
+}
+body #list1 #ls1 span, body #list1 #ls2 span, body #list1 #ls3 span, body #list1 #ls4 span, body #list1 #ls5 span, body #list1 #ls6 span {
+  color: #a19370;
+  text-decoration: #a19370 wavy underline;
+  padding: 10px;
+}
+body #list1 #ls1 a, body #list1 #ls2 a, body #list1 #ls3 a, body #list1 #ls4 a, body #list1 #ls5 a, body #list1 #ls6 a {
+  background-color: hsl(40, 25%, 95%);
+  font-family: Roboto;
+  position: relative;
+  z-index: 2;
+}
+body #list1 span:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 42px;
+  background: hsl(43, 69%, 76%);
+  transition: all 0.6s ease;
+  z-index: -1;
+}
+body #list1 span:hover:before {
+  width: 100%;
 }
 
 @media (max-width: 576px) {
