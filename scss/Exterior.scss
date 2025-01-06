@@ -3,6 +3,7 @@ header{
     background-image: url("assets/photo_2025-01-04_15-00-57 (1).jpg") !important;
     font-family: Roboto;
   }
+
   img{
     width: 60px;
   }
@@ -12,8 +13,8 @@ header{
       background: hsl(43, 69%, 76%);
       left: -82%;
     }
-    a{
-      background: hsl(43, 69%, 76%);
+    .navbar-nav::selection{
+      background: hsl(40, 18%, 45%);
     }
   }
 }
@@ -21,7 +22,11 @@ body{
   a{
     text-decoration: none;
   }
-  background-image: url("assets/image.png");
+  background: linear-gradient(to bottom, transparent, hsl(39, 18%, 85%)),
+  url("assets/QS1NLGv5-wallha.com.jpg");
+  a::selection{
+    background: hsl(45, 21%, 85%);
+  }
   #a1{
     border-color: hsl(43, 21%, 54%);
     background-color: hsl(0, 0%, 99%);
@@ -40,6 +45,9 @@ body{
     em:hover{
       transition: all 0.5s ease ;
       color: aliceblue;
+    }
+    em::selection{
+      background: hsl(45, 19%, 87%);
     }
   }
   #a1:before {
@@ -91,6 +99,9 @@ body{
     }
     span:hover:before {
       width: 100%;
+    }
+    span::selection{
+      background: hsl(45, 21%, 85%);
     }
   }
 }
