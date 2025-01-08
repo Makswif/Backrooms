@@ -60,7 +60,7 @@ body #a1:before {
   z-index: 1;
 }
 body #a1:hover:before {
-  height: 42px;
+  height: 100%;
 }
 body #a1:hover:before em:hover {
   transition: all 0.5s ease;
@@ -70,6 +70,7 @@ body #list1 #ls1, body #list1 #ls2, body #list1 #ls3, body #list1 #ls4, body #li
   background-color: hsl(60, 14%, 97%);
   border-width: 0px;
   border-radius: 5px;
+  width: 45%;
 }
 body #list1 #ls1 span, body #list1 #ls2 span, body #list1 #ls3 span, body #list1 #ls4 span, body #list1 #ls5 span, body #list1 #ls6 span {
   color: #a19370;
