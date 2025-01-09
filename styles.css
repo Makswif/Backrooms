@@ -17,7 +17,7 @@ header .dropdown .navbar-nav::selection {
 }
 
 body {
-  background: linear-gradient(to bottom, transparent, hsl(39, 18%, 85%)), url("assets/QS1NLGv5-wallha.com.jpg");
+  background: linear-gradient(to bottom, transparent, hsl(39, 18%, 85%)), url("assets/photo_2025-01-04_15-00-57 (2).jpg");
 }
 body a {
   text-decoration: none;
@@ -100,6 +100,50 @@ body #list1 span:hover:before {
 body #list1 span::selection {
   background: hsl(45, 21%, 85%);
 }
+body #st0 #hh1 {
+  font-family: "Embed code";
+  color: black;
+  width: 35%;
+  font-size: xx-large;
+  margin: 10% 0px 0px 0px;
+}
+body #st0 #hh1::selection {
+  background: hsl(45, 19%, 87%);
+}
+body #st0 #hh1:after {
+  content: "";
+  background: rgb(100, 96, 91);
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  flex-grow: 1;
+  height: 0.075rem;
+  margin: auto auto auto 1.25rem;
+  display: flex;
+  width: 200%;
+  left: 75%;
+  top: -1rem;
+  position: relative;
+}
+
+#st01 {
+  border-color: hsl(30, 6%, 69%);
+  background-color: hsla(55, 39%, 81%, 0.4);
+}
+#st01 p {
+  font-family: Roboto;
+  font-size: larger;
+}
+#st01 p::selection {
+  background: hsl(45, 19%, 87%);
+}
+
+#st01:after {
+  display: none;
+}
+
+.prb1 {
+  background-color: hsl(20, 100%, 66%);
+}
 
 @media (max-width: 576px) {
   header h1 {
@@ -118,6 +162,11 @@ body #list1 span::selection {
     left: -50px;
   }
 }
+@media (max-width: 460px) {
+  body #hh1:after {
+    left: 105% !important;
+  }
+}
 @media (max-width: 440px) {
   header h1 {
     left: -30px;
@@ -126,6 +175,11 @@ body #list1 span::selection {
 @media (max-width: 380px) {
   header h1 {
     left: -10px;
+  }
+}
+@media (max-width: 360px) {
+  body #hh1:after {
+    left: 130% !important;
   }
 }
 @media (max-width: 340px) {
@@ -160,6 +214,11 @@ body #list1 span::selection {
   }
   header h1 {
     left: 0px;
+  }
+}
+@media (max-width: 500px) {
+  body #hh1:after {
+    left: 105%;
   }
 }
 

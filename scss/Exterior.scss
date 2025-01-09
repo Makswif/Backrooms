@@ -23,7 +23,7 @@ body{
     text-decoration: none;
   }
   background: linear-gradient(to bottom, transparent, hsl(39, 18%, 85%)),
-  url("assets/QS1NLGv5-wallha.com.jpg");
+  url("assets/photo_2025-01-04_15-00-57 (2).jpg");
   a::selection{
     background: hsl(45, 21%, 85%);
   }
@@ -105,4 +105,48 @@ body{
       background: hsl(45, 21%, 85%);
     }
   }
+  #st0{
+    #hh1{
+        font-family: "Embed code";
+        color: black;
+        width: 35%;
+        font-size: xx-large;
+        margin: 10% 0px 0px 0px;
+    }
+    #hh1::selection{
+      background: hsl(45, 19%, 87%);
+    }
+    #hh1:after{
+      content: "";
+      background: rgb(100 96 91);
+      -webkit-box-flex: 1;
+      -webkit-flex-grow: 1;
+      flex-grow: 1;
+      height: 0.075rem;
+      margin: auto auto auto 1.25rem;
+      display: flex;
+      width: 200%;
+      left: 75%;
+      top: -1rem;
+      position: relative;
+    }
+  }
 }
+#st01{
+  border-color: hsl(30, 6%, 69%);
+  background-color: hsl(55, 39%, 81%, 0.4);
+  p{
+    font-family: Roboto;
+    font-size: larger;
+  }
+  p::selection{
+      background: hsl(45, 19%, 87%);
+  }
+}
+#st01:after{
+  display: none;
+}
+.prb1{
+  background-color: hsl(20, 100%, 66%);
+}
+
