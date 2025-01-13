@@ -153,3 +153,30 @@ body{
   font-family: Open-Sans;
   font-size: 1.2rem;
 }
+.pr2{
+  a{
+    color: hsl(42, 18%, 38%);
+  }
+  p::selection{
+    background: hsl(45, 19%, 87%);
+  }
+  em::selection{
+    background: hsl(45, 15%, 85%);
+  }
+  h1::selection{
+    background: hsl(44, 24%, 81%);
+  }
+  h2::selection{
+    background: hsl(44, 24%, 81%);
+  }
+}
+.nav0{
+  .page-item{
+    a{
+      background: none;
+      border: none;
+      color: hsl(40, 20%, 40%);
+    }
+  }
+}
+
