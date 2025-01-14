@@ -141,8 +141,16 @@ body #st0 #hh1:after {
   display: none;
 }
 
-.prb1 {
-  background-color: hsl(20, 100%, 66%);
+.prb0 {
+  background-color: hsl(0, 100%, 62%);
+}
+
+.prb1, .prb2 {
+  background-color: hsl(22, 100%, 44%);
+}
+
+.prb3 {
+  background-color: hsl(21, 63%, 54%);
 }
 
 .pr2 {
@@ -172,6 +180,15 @@ body #st0 #hh1:after {
   color: hsl(40, 20%, 40%);
 }
 
+.body1 {
+  height: 1000px;
+}
+
+@media (max-width: 768px) {
+  body {
+    height: 8500px;
+  }
+}
 @media (max-width: 576px) {
   header h1 {
     position: relative;
@@ -207,6 +224,11 @@ body #st0 #hh1:after {
 @media (max-width: 390px) {
   body {
     height: 7000px;
+  }
+}
+@media (max-width: 389px) {
+  body {
+    height: 9500px;
   }
 }
 @media (max-width: 380px) {
