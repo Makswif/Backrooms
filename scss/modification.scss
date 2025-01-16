@@ -1,6 +1,20 @@
+@media (max-width: 992px) {
+  .body2{
+    height: 5300px;
+  }
+  .body3{
+    height: 5000px;
+  }
+}
 @media (max-width: 768px) {
   body{
     height: 8500px;
+  }
+  .body2{
+    height: 6200px;
+  }
+  .body3{
+    height: 6000px;
   }
 }
 @media (max-width: 576px ) {
@@ -22,11 +36,31 @@
     height: 5000px;
   }
 }
+@media (max-width: 512px) {
+  .body3{
+    height: 7000px;
+  }
+}
 @media (max-width: 510px) {
   header{
     h1{
       left: -50px;
     }
+  }
+}
+@media (max-width: 495px) {
+  .body2{
+    height: 7300px;
+  }
+}
+@media (max-width: 469px) {
+  .body2{
+    height: 8000px;
+  }
+}
+@media (max-width: 465px) {
+  .body3{
+    height: 8000px;
   }
 }
 @media (max-width: 460px) {
@@ -43,6 +77,16 @@
     }
   }
 }
+@media (max-width: 420px) {
+  .body3{
+    height: 9000px;
+  }
+}
+@media (max-width: 409px) {
+  .body2{
+    height: 10000px;
+  }
+}
 @media (max-width: 390px) {
   body{
     height: 7000px;
@@ -52,6 +96,17 @@
   body{
     height: 9500px;
   }
+  .body3{
+    height: 9000px;
+  }
+}
+@media (max-width: 350px) {
+  body{
+    height: 9500px;
+  }
+  .body3{
+    height: 9000px;
+  }
 }
 @media (max-width: 380px) {
   header{
@@ -60,6 +115,7 @@
     }
   }
 }
+
 @media (max-width: 360px) {
   body{
     #hh1:after{
@@ -68,11 +124,19 @@
     }
   }
 }
+@media (max-width: 350px) {
+  .body3{
+    height: 9600px;
+  }
+}
 @media (max-width: 340px) {
   header{
     h1{
       left: -20px;
     }
+  }
+  .body2{
+    height: 8300px;
   }
 }
 @media (max-width: 243px) {

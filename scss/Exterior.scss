@@ -1,4 +1,7 @@
 header{
+  img{
+    user-select: none
+  }
   nav{
     background-image: url("assets/photo_2025-01-04_15-00-57 (1).jpg") !important;
     font-family: Roboto;
@@ -19,6 +22,14 @@ header{
   }
 }
 body{
+  img{
+    user-select: none
+  }
+
+  .progress-bar{
+    user-select: none
+  }
+
   a{
 
 
@@ -173,7 +184,9 @@ body{
   font-family: Open-Sans;
   font-size: 1.2rem;
 }
-
+.prb4{
+  background-color: hsl(0, 69%, 39%);;
+}
 
 
 .pr2{
