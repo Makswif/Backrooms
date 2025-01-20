@@ -171,11 +171,21 @@ body #st0 #hh1:after {
   background-color: hsl(0, 69%, 39%);
 }
 
+.page-link {
+  user-select: none;
+}
+
+.pr2 li::selection {
+  background: hsl(45, 19%, 87%);
+}
 .pr2 a {
   color: hsl(42, 18%, 38%);
 }
 .pr2 p::selection {
   background: hsl(45, 19%, 87%);
+}
+.pr2 h5::selection {
+  background: hsl(45, 18%, 87%);
 }
 .pr2 em::selection {
   background: hsl(45, 15%, 85%);
@@ -191,10 +201,6 @@ body #st0 #hh1:after {
   background: none;
   border: none;
   color: hsl(40, 20%, 40%);
-}
-
-.body1 {
-  height: 1000px;
 }
 
 @media (max-width: 992px) {
@@ -273,9 +279,14 @@ body #st0 #hh1:after {
     height: 9000px;
   }
 }
+@media (max-width: 417px) {
+  .body1 {
+    height: 5500px;
+  }
+}
 @media (max-width: 409px) {
   .body2 {
-    height: 10000px;
+    height: 8300px;
   }
 }
 @media (max-width: 390px) {
@@ -285,15 +296,20 @@ body #st0 #hh1:after {
 }
 @media (max-width: 389px) {
   body {
-    height: 9500px;
+    height: 6100px;
   }
   .body3 {
     height: 9000px;
   }
 }
+@media (max-width: 383px) {
+  .body3 {
+    height: 9950px;
+  }
+}
 @media (max-width: 350px) {
   body {
-    height: 9500px;
+    height: 6700px;
   }
   .body3 {
     height: 9000px;
@@ -355,6 +371,34 @@ body #st0 #hh1:after {
   body #hh1:after {
     left: 105%;
   }
+}
+@media (max-width: 436px) {
+  .body-Object1 {
+    height: 5500px;
+  }
+}
+@media (max-width: 405px) {
+  .body-Object1 {
+    height: 6000px;
+  }
+}
+@media (max-width: 380px) {
+  .body-Object1 {
+    height: 6600px;
+  }
+}
+@media (max-width: 351px) {
+  .body-Object1 {
+    height: 7000px;
+  }
+}
+@media (max-width: 335px) {
+  .body-Object1 {
+    height: 7300px;
+  }
+}
+.body-Object {
+  height: 110vh;
 }
 
 /*# sourceMappingURL=styles.css.map */

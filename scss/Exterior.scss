@@ -86,7 +86,6 @@ body{
     }
   }
 
-
   #list1{
     //background-color: aliceblue;
     #ls1, #ls2, #ls3, #ls4, #ls5, #ls6{
@@ -188,13 +187,21 @@ body{
   background-color: hsl(0, 69%, 39%);;
 }
 
-
+.page-link{
+  user-select: none;
+}
 .pr2{
+  li::selection{
+    background: hsl(45, 19%, 87%);
+  }
   a{
     color: hsl(42, 18%, 38%);
   }
   p::selection{
     background: hsl(45, 19%, 87%);
+  }
+  h5::selection{
+    background: hsl(45, 18%, 87%);
   }
   em::selection{
     background: hsl(45, 15%, 85%);
@@ -216,8 +223,4 @@ body{
       color: hsl(40, 20%, 40%);
     }
   }
-}
-
-.body1{
-  height: 1000px;
 }
