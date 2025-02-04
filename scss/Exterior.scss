@@ -224,3 +224,29 @@ body{
     }
   }
 }
+.Jerry{
+  li::selection{
+    background: hsl(206, 100%, 39%);
+  }
+  a::selection{
+    background-color: hsl(210, 100%, 80%);
+  }
+  p::selection{
+    background: hsl(219, 79%, 66%);
+  }
+  h5::selection{
+    background: hsl(214, 41%, 78%);
+  }
+  em::selection{
+    background: hsl(210, 100%, 80%);
+  }
+  h1::selection{
+    background: hsl(225, 73%, 57%);
+  }
+  h2::selection{
+    background: hsl(212, 71%, 58%);
+  }
+  .hh2::selection{
+    background-color: hsl(226, 49%, 16%) !important;
+  }
+}

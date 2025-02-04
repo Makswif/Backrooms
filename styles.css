@@ -203,6 +203,31 @@ body #st0 #hh1:after {
   color: hsl(40, 20%, 40%);
 }
 
+.Jerry li::selection {
+  background: hsl(206, 100%, 39%);
+}
+.Jerry a::selection {
+  background-color: hsl(210, 100%, 80%);
+}
+.Jerry p::selection {
+  background: hsl(219, 79%, 66%);
+}
+.Jerry h5::selection {
+  background: hsl(214, 41%, 78%);
+}
+.Jerry em::selection {
+  background: hsl(210, 100%, 80%);
+}
+.Jerry h1::selection {
+  background: hsl(225, 73%, 57%);
+}
+.Jerry h2::selection {
+  background: hsl(212, 71%, 58%);
+}
+.Jerry .hh2::selection {
+  background-color: hsl(226, 49%, 16%) !important;
+}
+
 @media (max-width: 992px) {
   .body2 {
     height: 5300px;
